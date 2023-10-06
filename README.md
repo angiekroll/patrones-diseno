@@ -12,15 +12,17 @@ Ejercicio de patrones de diseño aplicando Adapter, Builer
 
   <img src="./src/main/resources/images/Problema2-UML.png" width="320">
 
-## ¿How to run the program?
+## URL del proyecto
+- https://github.com/angiekroll/patrones-diseno
 
-- Clone el proyecto de la siguiente ruta: 
+## ¿Cómo ejecutar el programa?
+
+- Clone el proyecto ejecutando el siguiente comando: 
 ```bash
-URL
+git clone git@github.com:angiekroll/patrones-diseno.git
 ```
 - Abra el proyecto con el IDE de su preferencia
-- Ejecute la clase principal "Main" del paquete ejerciciodos.
-
+- Ejecute la clase principal "Main" del paquete "ejerciciodos".
 
 ## Integrantes
 - Angela Castillo Rodríguez
