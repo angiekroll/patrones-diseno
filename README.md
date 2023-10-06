@@ -26,6 +26,8 @@ git clone git@github.com:angiekroll/patrones-diseno.git
 
 ## Integrantes
 - Angela Castillo Rodríguez
+- Daniel Sebastian Leal Rodríguez
+- xxxxxxxx
 - xxxxxxxx
 - xxxxxxxx
 
