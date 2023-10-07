@@ -12,9 +12,7 @@ public class Main {
   public static void main(String[] args) {
     SistemaPago pagoTarjetaCredito = new PagoTarjetaCredito();
     SistemaPago pagoPayPal = new PagoPayPal();
-
-    PagoNuevoSistema pagoNuevoSistema = new PagoNuevoSistema();
-    SistemaPago nuevoSistemaPagoAdapter = new PagoNuevoSistemaAdapter(pagoNuevoSistema);
+    SistemaPago nuevoSistemaPagoAdapter = new PagoNuevoSistemaAdapter();
 
     // Ejecución
     pagoTarjetaCredito.ejecutarPago(new BigDecimal(500));

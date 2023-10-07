@@ -7,17 +7,13 @@ import java.math.BigDecimal;
 import com.ejerciciodos.metodopago.nuevosistemapago.PagoNuevoSistema;
 
 /**
- *
  * @author angiekroll@gmail.com - Ángela Carolina Castillo Rodríguez.
  * @version - 1.0.0
  * @since - 1.0.0
  */
 public class PagoNuevoSistemaAdapter implements SistemaPago {
-  private PagoNuevoSistema pagoNuevoSistema;
 
-  public PagoNuevoSistemaAdapter(PagoNuevoSistema pagoNuevoSistema) {
-    this.pagoNuevoSistema = pagoNuevoSistema;
-  }
+  PagoNuevoSistema pagoNuevoSistema = new PagoNuevoSistema();
 
   @Override
   public void ejecutarPago(BigDecimal monto) {
