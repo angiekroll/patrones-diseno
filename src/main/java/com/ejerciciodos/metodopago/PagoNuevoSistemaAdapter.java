@@ -20,10 +20,10 @@ public class PagoNuevoSistemaAdapter implements SistemaPago {
   @Override
   public void ejecutarPago(BigDecimal monto) {
     // Utiliza el nuevo sistema de pago digital mediante adaptación
-    pagoNuevoSistema.procesoPago(monto, getOTPToken());
+    pagoNuevoSistema.procesoPago(monto, obtenerTokenTransaccion());
   }
 
-  private String getOTPToken() {
+  private String obtenerTokenTransaccion() {
     return UUID.randomUUID().toString();
   }
 }
