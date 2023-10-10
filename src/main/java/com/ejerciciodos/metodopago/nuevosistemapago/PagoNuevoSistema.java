@@ -13,8 +13,8 @@ import java.math.BigDecimal;
  */
 public class PagoNuevoSistema {
 
-  public void procesoPago(BigDecimal monto) {
-    System.out.println("Pago con nuevo sistema digital: $" + monto);
+  public void procesoPago(BigDecimal monto, String tokenId) {
+    System.out.println("Pago con nuevo sistema digital: $" + monto + " con token: " + tokenId);
   }
 
 }
