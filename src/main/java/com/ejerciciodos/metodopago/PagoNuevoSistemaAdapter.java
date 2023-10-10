@@ -4,6 +4,8 @@
 package com.ejerciciodos.metodopago;
 
 import java.math.BigDecimal;
+import java.util.UUID;
+
 import com.ejerciciodos.metodopago.nuevosistemapago.PagoNuevoSistema;
 
 /**
@@ -13,11 +15,15 @@ import com.ejerciciodos.metodopago.nuevosistemapago.PagoNuevoSistema;
  */
 public class PagoNuevoSistemaAdapter implements SistemaPago {
 
-  PagoNuevoSistema pagoNuevoSistema = new PagoNuevoSistema();
+  private final PagoNuevoSistema pagoNuevoSistema = new PagoNuevoSistema();
 
   @Override
   public void ejecutarPago(BigDecimal monto) {
     // Utiliza el nuevo sistema de pago digital mediante adaptación
-    pagoNuevoSistema.procesoPago(monto);
+    pagoNuevoSistema.procesoPago(monto, obtenerTokenTransaccion());
+  }
+
+  private String obtenerTokenTransaccion() {
+    return UUID.randomUUID().toString();
   }
 }
