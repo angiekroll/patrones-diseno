@@ -51,7 +51,7 @@ public class Main {
         Producto productoAComprarElectrodomesticos = new Electronico("4", "Lavadora", 1200000, "Whirlpool", "Electronico", "A");
         SistemaProcesamiento sistemaProcesamientoElectrodomesticos
                 = new ProcesamientoElectronico();
-        sistemaProcesamientoElectrodomesticos.procesamientoProducto(productoAComprarElectrodomesticos, 8, inventarioRopa);
+        sistemaProcesamientoElectrodomesticos.procesamientoProducto(productoAComprarElectrodomesticos, 8, inventarioElectronicos);
 
     }
 }
