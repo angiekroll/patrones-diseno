@@ -45,7 +45,7 @@ Tu solución debe permitir lograr una integración suave y coherente del nuevo s
 
 A continuación encontrará un modulo construido en Java , el cual es una Plataforma de comercio electrónico, /*/que hace la app*///*/*/
 
-En el modulo mencionado, se usó el patrón de estructural Adapter y el patrón de comportamiento Strategy.
+En el modulo mencionado, se usó el patrón de estructural Adapter para solucionar el problema planteado y adicionalmente se utiliza el patrón de comportamiento Strategy para permitir la adopción de futuros metodos de pago que podrian o no llegar a requerir un adapter en sus diferentes implementaciones.
 
 Adapter es un patrón de diseño estructural que permite la colaboración entre objetos con interfaces incompatibles.
 https://refactoring.guru/es/design-patterns/adapter
