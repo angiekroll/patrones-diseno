@@ -2,18 +2,20 @@
 # GRUPO 1
 
 ## Contenido
-[Ejercicio 1](#Ejercicio 1)
+[Ejercicio1](#ejercicio1)
 
-[Ejercicio 2](#Ejercicio 2)
+[Ejercicio2](#ejercicio2)
 
-[Ejercicio 3](#Ejercicio 3)
+[Ejercicio3](#ejercicio3)
 
-[Tecnologias usadas](#tecnologias)
+[Tecnologias](#tecnologias)
 
 [Instalacion](#instalacion)
 
-### <a name="Ejercicio 1"></a>
-# Ejercicio 1: Sistema de Procesamiento de Pedidos en Línea
+[Integrantes](#integrantes)
+
+### <a name="ejercicio1"></a>
+## Ejercicio1
 
 Teniendo en cuenta el ejercicio 1:
 SPPL (Sistema de Procesamiento de Pedidos en Línea)
@@ -32,11 +34,11 @@ https://refactoring.guru/es/design-patterns/template-method
 
 ### Diagrama de clases
 
-  <img src="./src/main/resources/images/Problema1-UML.png" width="320">
+  <img src="./src/main/resources/images/Problema1-UML.png" width="820">
 
 
-### <a name="Ejercicio 2"></a>
-# Ejercicio 2: Integración de un Sistema de Pago Externo
+### <a name="ejercicio2"></a>
+## Ejercicio2
 
 Teniendo en cuenta el ejercicio 2:
 Imagina que estás desarrollando una plataforma de comercio electrónico y deseas ofrecer a tus clientes múltiples opciones de pago, incluyendo tarjetas de crédito, PayPal y un nuevo sistema de pago digital que acaba de ser lanzado. Sin embargo, este nuevo sistema de pago tiene una interfaz incompatible con tu plataforma existente, lo que dificulta su integración.
@@ -56,10 +58,10 @@ https://refactoring.guru/es/design-patterns/strategy
 
 ### Diagrama de clases
 
-  <img src="./src/main/resources/images/Problema2-UML.png" width="320">
+  <img src="./src/main/resources/images/Problema2-UML.png" width="520">
 
-### <a name="Ejercicio 3"></a>
-# Ejercicio 3: Construcción de una Orden Personalizada de Pizza
+### <a name="ejercicio3"></a>
+## Ejercicio3
 
 Imagina que estás trabajando en una aplicación de pedidos de pizza en línea y necesitas implementar un sistema de construcción de órdenes personalizadas. Los clientes deben poder crear pizzas personalizadas con ingredientes específicos, tamaños de porción y opciones de cobertura.
 Requerimientos del sistema:
@@ -82,7 +84,7 @@ https://refactoring.guru/es/design-patterns/builder
 
 
 ### <a name="tecnologias"></a>
-## Tecnologias usadas
+## Tecnologias
 
 * Java 21 (JDK 21)
   * [JDK Development Kit 21](https://www.oracle.com/co/java/technologies/downloads/#jdk21-windows)
@@ -107,6 +109,7 @@ Ejercio 3 --> src\main\java\com\ejerciciotres\Main.java
 La ULR del proyecto es
 - https://github.com/angiekroll/patrones-diseno
 
+### <a name="integrantes"></a>
 ## Integrantes
 - Angela Castillo Rodríguez
 - Daniel Sebastian Leal Rodríguez
