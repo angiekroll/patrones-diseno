@@ -74,13 +74,13 @@ Requerimientos del sistema:
 
 A continuación encontrará un modulo construido en Java , el cual es una Aplicación de pedidos de pizza en línea, /*/que hace la app*///*/*/
 
-En el modulo mencionado, se usó el patrón Creacional Builder.
+En el modulo mencionado, se usó el patrón Creacional Builder en conjunto con el patrón Factory Method.
 
 https://refactoring.guru/es/design-patterns/builder
 
 ### Diagrama de clases
 
-  <img src="./src/main/resources/images/Problema3-UML.png" width="320">
+  <img src="./src/main/resources/images/Problema3-UML.png" width="900">
 
 
 ### <a name="tecnologias"></a>
