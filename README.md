@@ -24,7 +24,7 @@ Cada tipo de producto tiene un proceso de procesamiento de pedidos ligeramente d
 El problema radica en la necesidad de implementar este sistema de procesamiento de pedidos con múltiples pasos, pero permitiendo variaciones específicas para cada tipo de producto. Además, también debes considerar la posibilidad de futuras expansiones en la variedad de productos y pasos adicionales en el proceso de procesamiento.
 El patrón de diseño que escoja debe permitir manejar la complejidad de la variación en el proceso de procesamiento de pedidos, al tiempo que garantiza que los pasos generales sean consistentes para todos los tipos de productos. Recuerde que busca facilitar la extensión del sistema a medida que la tienda en línea crece y se diversifica.
 
-A continuación encontrará un modulo construido en Java , el cual es un Sistema de Procesamiento de Pedidos en Línea, en donde la compañía vende una viariedad de productos (electronivos, ropa y productos alimenticios), cada tipo de producto tiene un procesamiento de pedidos de a cuerdo a sus características existiendo pasos generales que se aplican a todos los tipos de productos y otros que no.
+A continuación encontrará un modulo construido en Java , el cual es un Sistema de Procesamiento de Pedidos en Línea, en donde la compañía vende una viariedad de productos (electronicos, ropa y productos alimenticios), cada tipo de producto tiene un procesamiento de pedidos de a cuerdo a sus características existiendo pasos generales que se aplican a todos los tipos de productos y otros que no.
 Dicho sistema permite visualizar mensajes durante el proceso de procesamiento del pedido segun validaciones en el stock de la cantidad solicitada del producto y demás validaciones según el tipo de producto.
 
 En el modulo mencionado, se usó el patrón de comportamiento Template Method.
@@ -45,9 +45,9 @@ Imagina que estás desarrollando una plataforma de comercio electrónico y desea
 
 Tu solución debe permitir lograr una integración suave y coherente del nuevo sistema de pago en tu plataforma de comercio electrónico, sin tener que modificar la lógica interna de tu sistema existente. Para facilitar la adopción de nuevas tecnologías y sistemas en tu aplicación sin interrumpir su funcionalidad principal.
 
-A continuación encontrará un modulo construido en Java , el cual es una Plataforma de comercio electrónico, /*/que hace la app*///*/*/
+A continuación encontrará un modulo construido en Java , el cual es una Plataforma de comercio electrónico, el cual dispone de diferentes medios de pago que puede elegir el cliente, ya sea tarjeta de credito, paypal o un nuevo sistema de pago digital. todos los metodos de pago pasaran a través de un servicio que se encargará de validar y procesar el pago de acuerdo a la eleccion del cliente.
 
-En el modulo mencionado, se usó el patrón de estructural Adapter para solucionar el problema planteado y adicionalmente se utiliza el patrón de comportamiento Strategy para permitir la adopción de futuros metodos de pago que podrian o no llegar a requerir un adapter en sus diferentes implementaciones.
+En el modulo mencionado, se usó el patrón de estructural Adapter para solucionar el problema planteado y adicionalmente se utiliza el patrón de comportamiento Strategy para permitir la adopción de futuros metodos de pago que podrian o no llegar a requerir un adapter en sus diferentes implementaciones, permitiendo así una integración suave y coherente con el sistema existente.
 
 Adapter es un patrón de diseño estructural que permite la colaboración entre objetos con interfaces incompatibles.
 https://refactoring.guru/es/design-patterns/adapter
