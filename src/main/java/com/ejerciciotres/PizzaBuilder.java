@@ -39,7 +39,7 @@ public class PizzaBuilder {
         for (Ingrediente ingrediente: ingredientes) {
             System.out.println("---- " + ingrediente + " x $" + ingrediente.calcularPrecio());
         }
-        System.out.println("[!] Tipo de masa: " + this.tipoMasa.getClass().getSimpleName());
+        System.out.println("[!] Tipo de masa: " + this.tipoMasa.getClass().getSimpleName().replaceAll("Masa", ""));
         System.out.println("[!] Tiene adicion extra de queso?: " + (this.tieneExtraQueso ?  "Si" : "No"));
     }
 
