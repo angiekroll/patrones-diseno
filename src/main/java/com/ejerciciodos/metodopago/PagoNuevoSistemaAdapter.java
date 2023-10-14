@@ -8,11 +8,7 @@ import java.util.UUID;
 
 import com.ejerciciodos.metodopago.nuevosistemapago.PagoNuevoSistema;
 
-/**
- * @author angiekroll@gmail.com - Ángela Carolina Castillo Rodríguez.
- * @version - 1.0.0
- * @since - 1.0.0
- */
+
 public class PagoNuevoSistemaAdapter implements SistemaPago {
 
   private final PagoNuevoSistema pagoNuevoSistema = new PagoNuevoSistema();

@@ -5,12 +5,7 @@ package com.ejerciciodos.metodopago.nuevosistemapago;
 
 import java.math.BigDecimal;
 
-/**
- *
- * @author angiekroll@gmail.com - Ángela Carolina Castillo Rodríguez.
- * @version - 1.0.0
- * @since - 1.0.0
- */
+
 public class PagoNuevoSistema {
 
   public void procesoPago(BigDecimal monto, String tokenId) {

@@ -3,7 +3,7 @@ package com.ejerciciotres.ingredientes;
 import java.math.BigDecimal;
 
 public class Queso extends Ingrediente{
-    private BigDecimal PRECIO_BASE = new BigDecimal(10.5);
+    private final BigDecimal PRECIO_BASE = new BigDecimal(10.5);
 
     public Queso(int cantidad) {
         super(cantidad);

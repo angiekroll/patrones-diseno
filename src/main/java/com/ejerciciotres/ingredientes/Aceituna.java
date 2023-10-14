@@ -3,7 +3,7 @@ package com.ejerciciotres.ingredientes;
 import java.math.BigDecimal;
 
 public class Aceituna extends Ingrediente{
-    private BigDecimal PRECIO_BASE = new BigDecimal(3);
+    private final BigDecimal PRECIO_BASE = new BigDecimal(3);
 
     public Aceituna(int cantidad) {
         super(cantidad);

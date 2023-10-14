@@ -3,7 +3,7 @@ package com.ejerciciotres.ingredientes;
 import java.math.BigDecimal;
 
 public class Pimiento extends Ingrediente{
-    private BigDecimal PRECIO_BASE = new BigDecimal(2);
+    private final BigDecimal PRECIO_BASE = new BigDecimal(2);
 
     public Pimiento(int cantidad) {
         super(cantidad);

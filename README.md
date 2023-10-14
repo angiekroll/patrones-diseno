@@ -72,7 +72,7 @@ Requerimientos del sistema:
 5. Los clientes deben poder calcular el costo total de su pizza en función de las selecciones realizadas, incluyendo el tamaño de la porción, los ingredientes y la cobertura adicional.
 6. Una vez que los clientes hayan construido su pizza personalizada, deben poder revisarla y realizar el pedido.
 
-A continuación encontrará un modulo construido en Java , el cual es una Aplicación de pedidos de pizza en línea, /*/que hace la app*///*/*/
+A continuación encontrará un modulo construido en Java , el cual es una Aplicación de pedidos de pizza en línea, que se encarga de construir pizzas, de acuerdo a los ingredientes, tipo de masa que se desee, a su vez deja verificar y validar el precio antes de colocarla en la orden.
 
 En el modulo mencionado, se usó el patrón Creacional Builder en conjunto con el patrón Factory Method.
 

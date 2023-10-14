@@ -3,7 +3,7 @@ package com.ejerciciotres.ingredientes;
 import java.math.BigDecimal;
 
 public class Pina extends Ingrediente{
-    private BigDecimal PRECIO_BASE = new BigDecimal(2.5);
+    private final BigDecimal PRECIO_BASE = new BigDecimal(2.5);
 
     public Pina(int cantidad) {
         super(cantidad);
